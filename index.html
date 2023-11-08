@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Traval Cabs</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/nice-select.css">
+      <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+      <link rel="stylesheet" href="css/niceCountryInput.css">
+      <link rel="      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <style>
+	/* CSS for the card styling */
+.card {
+ border: none;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ transition: transform 0.2s;
+}
+
+.card:hover {
+ transform: translateY(-5px);
+}
+
+.card-title {
+ font-size: 1.5rem;
+ margin-top: 10px;
+}
+
+.card-text {
+ font-size: 1rem;
+ color: #777;
+}
+
+/* Optional: Center card text */
+.card-body {
+ text-align: center;
+}
+.card-img-top {
+            height: 200px; /* Adjust the height as needed */
+            width: 100%; /* Ensures the image takes 100% of the container width */
+            object-fit: cover; /* Maintain aspect ratio and cover the fixed height and width */
+        }
+
+ </style>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- header -->
+      <div class="header">
+         <div class="top_header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="select_main">
+                        <div class="sign">
+							<ul class="top_infomation">
+                     <a href="tel:+9145079393" style="color: #fff;"><i class="fa fa-phone" aria-hidden="true"></i>+9145079393</a>
+						</ul>
+						 </div>
+                        <ul class="top_infomation">
+                           <a href="mailto:Iftekarshaikh6051@gmail.com" style="color: #fff;">
+                              <i class="fa fa-envelope" aria-hidden="true"></i> Iftekarshaikh6051@gmail.com
+                          </a>
+                           
+                           <!-- <li><img src="images/ti_mail.png" alt="#"/><a href="Javascript:void(0)"> demo@gmail.com</a></li> -->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header_midil">
+            <div class="container">
+               <div class="row d_flex">
+                  <div class=" col-md-2 col-sm-3 logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <h1 style="color: aliceblue;"><b>Mq Travels</b></h1>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-9 col-md-8">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="about.html">About</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="cities.html">Cities</a>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="service.html">Service</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">Contact Us</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+                  <div class="col-md-2  d_none">
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- top -->
+      <div class="full_bg">
+         <div class="slider_main">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <!-- carousel code -->
+                     <div id="carouselExampleIndicators" class="carousel slide">
+                        <ol class="carousel-indicators">
+                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                           <!-- first slide -->
+                           <div class="carousel-item active">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <div  class="col-md-10 offset-md-1">
+                                       <div class="board">
+                                          <h1>Now start <br>Your Booking </h1>
+                                          <p>Embrace the journey, for in the twists and turns of life, we discover the magic of resilience and the beauty of unexpected destinations.</p>
+                                          <a class="read_more" href="contact.html">Contact us</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- second slide -->
+                           <div class="carousel-item">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <div  class="col-md-10 offset-md-1">
+                                       <div class="board">
+                                          <h1>Now start <br>Your Booking </h1>
+                                          <p>Embrace the journey, for in the twists and turns of life, we discover the magic of resilience and the beauty of unexpected destinations.</p>
+                                          <a class="read_more" href="contact.html">Contact us</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- third slide-->
+                           <div class="carousel-item">
+                              <div class="carousel-caption relative">
+                                 <div class="row">
+                                    <div  class="col-md-10 offset-md-1">
+                                       <div class="board">
+                                          <h1>start Your <br>Booking Now </h1>
+                                          <p>Embrace the journey, for in the twists and turns of life, we discover the magic of resilience and the beauty of unexpected destinations.</p>
+                                          <a class="read_more" href="contact.html">Contact us</a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- controls -->
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end banner -->
+      <!-- booking form start -->
+	  <div>
+		<br><br><br><br><br><div class="container">
+			<div class="row d_flex">
+				<div class="col-md-12">
+					<form id="table" class="table_form" method="post" action="sendmail.php">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="titlepage text_align_center">
+									<h3><b>Book Your Cab Now</b></h3>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<select id="seluser" name="tripType" class="contactus" onchange="handleTripOption()">
+                           <option value="One-way Trip">One-way Trip</option>
+                           <option value="Round Trip">Round Trip</option>
+                           <option value="Rental">Rental</option>
+								</select>
+							</div>
+                     <div class="col-md-4">
+                        <select  class="contactus"  id="cabType" name="cabType">
+                            <option selected>Select Car</option>
+                           <option selected>Select Car</option>
+                            <option value="Wagon-R">Wagon-R</option>
+                            <option value="Celerio">Celerio</option>
+                            <option value="Swift">Swift</option>
+                            <option value="Xcent">Xcent</option>
+                            <option value="Amaze">Amaze</option>
+                            <option value="Swift-Dzire">Swift-Dzire</option>
+                            <option value="Etios">Etios</option>
+                            <option value="Tavera">Tavera</option>
+                            <option value="Xylo">Xylo</option>
+                            <option value="Ertiga">Ertiga</option>
+                            <option value="Innova-Crysta">Innova-Crysta</option>
+                            <option value="Innova">Innova</option>
+                        </select>
+                    </div>
+							<div class="col-md-4">
+								<input class="contactus" placeholder="Enter Name" type="text" name="name">
+							</div>
+                     <div class="col-md-4">
+								<input class="contactus" placeholder="Enter mobile Number" type="email" name="Phone">
+							</div>
+							<div class="col-md-4">
+								<input class="contactus" placeholder="Enter Email" type="email" name="email">
+							</div>
+							<div class="col-md-4">
+								<input class="contactus" placeholder="Enter Pickup" type="text" name="pickup">
+							</div>
+							<div class="col-md-4">
+								<input class="contactus" placeholder="Enter Destination" type="text" name="destination">
+							</div>
+							<div class="col-md-4">
+									<input type="date" name="departureDate" class="contactus" id="date" placeholder="Enter Date">
+							</div>
+							<div class="col-md-4">
+									<input type="time" name="departureTime" class="contactus" id="time" placeholder="Enter Time">
+							</div>
+							<div class="col-md-4" id="returnDate" style="display: none;">
+                        <label for="returnDate">Return Date</label>
+                        <input type="date" class="contactus" id="returnDate1" placeholder="Return Date" name="returnDate1">
+                    </div>
+                    <div class="col-md-4" id="returnTime" style="display: none;">
+                        <label for="returnTime">Return Time</label>
+                        <input type="time" class="contactus" id="returnTime" placeholder="Return Time" name="returnTime">
+                    </div>
+							<div class="col-md-12">
+								<button class="send_btn">Book Now</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+
+        function handleTripOption() {
+        var tripOption = document.getElementById('seluser').value;
+        var returnDateField = document.getElementById('returnDate');
+        var returnTimeField = document.getElementById('returnTime');
+
+        if (tripOption === '1') { // Round Trip
+            returnDateField.style.display = 'block';
+            returnTimeField.style.display = 'block';
+        } else {
+            returnDateField.style.display = 'none';
+            returnTimeField.style.display = 'none';
+        }
+    }
+		
+		document.addEventListener("DOMContentLoaded", function() {
+            const currentDate = new Date().toISOString().split("T")[0];
+            
+            document.getElementById("date").setAttribute("min", currentDate);
+            document.getElementById("returnDate").setAttribute("min", currentDate);
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+        const currentDate = new Date().toISOString().split("T")[0];
+        
+        document.getElementById("date").setAttribute("min", currentDate);
+        document.getElementById("returnDate").setAttribute("min", currentDate);
+        }); 
+
+	</script>
+
+<!-- booking form end -->
+<div class="about">
+	<div class="container">
+	   <div class="row">
+		  <div class="col-md-12">
+			 <div class="titlepage text_align_center">
+				<h2>About Us</h2>
+			 </div>
+		  </div>
+		  <div class="col-md-10 offset-md-1">
+			 <div class="about_text text_align_center">
+            <h1 style="color: #fff;">Mq Travels - Elevate Your Journey</h1><br>
+            <h3 style="color: #fff;">Welcome to Mq Travels, your trusted partner in seamless and comfortable travel experiences. Our commitment is to provide top-notch transportation services with a focus on reliability, safety, and customer satisfaction.Mq Travels boasts a diverse fleet of well-maintained vehicles, including comfortable sedans, spacious SUVs, and luxury cars. Choose the perfect ride for your needs.We understand that travel plans can arise at any time. That's why Mq Travels operates 24/7, ensuring you have access to our services whenever you need them.</h3><br><br>
+				
+				<a class="read_more" style="background-color: #fff; color: black;" href="book.html">Book Now</a>
+			 </div>
+		  </div>
+	   </div>
+	</div>
+ </div>
+<!-- end about -->
+<div class="packages">
+	      <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+               <div class="titlepage text_align_center ">
+                  <br><h2>Cabs We Provides</h2>
+               </div>
+            </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4">
+               <div class="card">
+                  <img src="images/Celerio.png" class="card-img-top" alt="Card Image 3">
+                  <div class="card-body">
+                     <h1 class="card-title"><b>Hatchback</b></h1>
+                     <h4><b>Celerio, Wagon-r, Glanza</b></h4>
+                     <h4>Ac Cab</h4>
+                     <h4>Charging Point</h4>
+                     <h4>Music System</h4>
+                     <h4>Sitting Capacity: 4+1</h4>
+                     <h4>Luggage Capacity: 2 Bags</h4><br>
+                     <h4 style="color: red;"><b>₹11/km</b></h4></b><br>
+                     <a class="btn btn-dark" href="book.html">Book Now</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card">
+                  <img src="images/Dzire.jpg" class="card-img-top" alt="Card Image 3">
+                  <div class="card-body">
+                     <h1 class="card-title"><b>Sedan</b></h1>
+                     <h4><b>Swift Dzire, Xcent, Etios</b></h4>
+                     <h4>Ac Cab</h4>
+                     <h4>Charging Point</h4>
+                     <h4>Music System</h4>
+                     <h4>Sitting Capacity: 4+1</h4>
+                     <h4>Luggage Capacity: 3 Bags</h4><br>
+                     <h4 style="color: red;"><b>₹12/km</b></h4></b><br>
+                     <a class="btn btn-dark" href="book.html">Book Now</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="card">
+                  <img src="images/Honda City.avif" class="card-img-top" alt="Card Image 3">
+                  <div class="card-body">
+                     <h1 class="card-title"><b>Sedan Primium</b></h1>
+                     <h4><b>Honda City, Verna, Maruti Ciaz</b></h4>
+                     <h4>Ac Cab</h4>
+                     <h4>Charging Point</h4>
+                     <h4>Music System</h4>
+                     <h4>Sitting Capacity: 6+1</h4>
+                     <h4>Luggage Capacity: 6 Bags</h4><br>
+                     <h4 style="color: red;"><b>₹14/km</b></h4></b><br>
+                     <a class="btn btn-dark" href="book.html">Book Now</a>
+                  </div>
+               </div>
+            </div>
+           
+		</div><br><br>
+      <div class="row">
+         <div class="col-md-4">
+            <div class="card">
+               <img src="images/Ertiga.webp" class="card-img-top" alt="Card Image 3">
+               <div class="card-body">
+                  <h1 class="card-title"><b>SUV</b></h1>
+                  <h4><b>Ertiga, Caravan, Xylo</b></h4>
+                  <h4>Ac Cab</h4>
+                  <h4>Charging Point</h4>
+                  <h4>Music System</h4>
+                  <h4>Sitting Capacity: 6+1</h4>
+                  <h4>Luggage Capacity: 5 Bags</h4><br>
+                  <h4 style="color: red;"><b>₹15/km</b></h4></b><br>
+                  <a class="btn btn-dark" href="book.html">Book Now</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="card">
+               <img src="images/Innova Hycross.jpg" class="card-img-top" alt="Card Image 3">
+               <div class="card-body">
+                  <h1 class="card-title"><b>SUV Primium</b></h1>
+                  <h4><b>Innova Hycross</b></h4>
+                  <h4>Ac Cab</h4>
+                  <h4>Charging Point</h4>
+                  <h4>Music System</h4>
+                  <h4>Sitting Capacity: 6+1</h4>
+                  <h4>Luggage Capacity: 6 Bags</h4><br>
+                  <h4 style="color: red;"><b>₹22/km</b></h4></b><br>
+                  <a class="btn btn-dark" href="book.html">Book Now</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+            <div class="card">
+               <img src="images/Innova_Crysta.jpg" class="card-img-top" alt="Card Image 3">
+               <div class="card-body">
+                  <h1 class="card-title"><b>MUV</b></h1>
+                  <h4><b>Innova Crysta</b></h4>
+                  <h4>Ac Cab</h4>
+                  <h4>Charging Point</h4>
+                  <h4>Music System</h4>
+                  <h4>Sitting Capacity: 6+1</h4>
+                  <h4>Luggage Capacity: 6 Bags</h4><br>
+                  <h4 style="color: red;"><b>₹20/km</b></h4></b><br>
+                  <a class="btn btn-dark" href="book.html">Book Now</a>
+               </div>
+            </div>
+         </div>
+         
+         
+   </div><br><br>
+   
+<div class="row">
+   <div class="col-md-4">
+      <div class="card">
+         <img src="images/17 siter.jpg" class="card-img-top" alt="Card Image 3">
+         <div class="card-body">
+            <h1 class="card-title"><b>17 Siter</b></h1>
+            <h4>Ac/Non Ac Travels</h4>
+            <h4>Charging Point</h4>
+            <h4>Music System</h4><br>
+            <h4 style="color: red;"><b>₹28/km</b></h4></b><br>
+            <a class="btn btn-dark" href="book.html">Book Now</a>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-4">
+      <div class="card">
+         <img src="images/22 siter.jpg" class="card-img-top" alt="Card Image 1">
+         <div class="card-body">
+            <h1 class="card-title"><b>22 Siter</b></h1>
+            <h4>Ac/Non Ac Travels</h4>
+            <h4>Charging Point</h4>
+            <h4>Music System</h4><br>
+            <h4 style="color: red;"><b>₹29/km</b></h4></b><br>
+            <a class="btn btn-dark" href="book.html">Book Now</a>
+            <!-- <p class="card-text">You can get here similar sedan cars</p> -->
+         </div>
+      </div>
+   </div>
+   <div class="col-md-4">
+      <div class="card">
+         <img src="images/40 siter.jpg" class="card-img-top" alt="Card Image 2">
+         <div class="card-body">
+            <h1 class="card-title"><b>45 Siter</b></h1>
+            <h4>Ac/Non Ac Travels</h4>
+            <h4>Charging Point</h4>
+            <h4>Music System</h4><br>
+            <h4 style="color: red;"><b>₹75/km</b></h4></b><br>
+            <a class="btn btn-dark" href="book.html">Book Now</a>
+            <!-- <p class="card-text">You can get here similar SUV cars</p> -->
+         </div>
+      </div>
+   </div>
+
+</div>
+</div>
+<!--End Services-->
+      <!-- start packages -->
+      <div class="packages">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center ">
+                     <h2>Cities WE Offer</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class=" col-md-6">
+                  <div id="ho_img" class="packages_box" data-aos="fade-right" >
+                     <figure><img src="https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg" alt="#"/></figure>
+                     <div class="tuscany">
+                        <div class="tusc text_align_left">
+                           <div class="italy">
+                              <h3>Taj Hotel</h3>
+                              <span><img src="images/loca.png" alt="#"/> Mumbai</span>
+                           </div>
+                        </div>
+                        <p>Mumbai's Taj Hotel: Icon of luxury since 1903, seamlessly blending history and modern opulence with stunning views and renowned hospitality.</p>
+                        <div class="tusc">
+                           <a class="read_more" href="book.html">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class=" col-md-6">
+                  <div id="ho_img" class="packages_box" data-aos="fade-left">
+                     <figure><img src="https://www.eyeonasia.gov.sg/images/india-selected/pune-profile.jpg" alt="#"/></figure>
+                     <div class="tuscany">
+                        <div class="tusc text_align_left">
+                           <div class="italy">
+                              <h3>Khadakwasla Dam</h3>
+                              <span><img src="images/loca.png" alt="#"/> Pune</span>
+                           </div>
+                        </div>
+                        <p>
+                           Khadakwasla Dam, near Pune, Maharashtra, built-in 1869 on the Mutha River, is a key water source, offering scenic views and recreational opportunities.</p>
+                        <div class="tusc">
+                           <a class="read_more" href="book.html">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class=" col-md-6">
+                  <div id="ho_img" class="packages_box" data-aos="fade-right" >
+                     <figure><img src="https://images.livemint.com/img/2019/04/07/600x338/Nagpur_1554664405054.jpg" alt="#"/></figure>
+                     <div class="tuscany">
+                        <div class="tusc text_align_left">
+                           <div class="italy">
+                              <h3>Metro</h3>
+                              <span><img src="images/loca.png" alt="#"/> Nagpur</span>
+                           </div>
+                        </div>
+                        <p>Nagpur Metro, inaugurated in March 2019, has two corridors (Orange and Aqua lines) aiming to enhance city transportation and connectivity.</p>
+                        <div class="tusc">
+                           <a class="read_more" href="book.html">Book Now</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+			   <div class=" col-md-6">
+				<div id="ho_img" class="packages_box" data-aos="fade-right" >
+				   <figure><img src="https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_2/IMAGE_1649231830.webp" alt="#"/></figure>
+				   <div class="tuscany">
+					  <div class="tusc text_align_left">
+						 <div class="italy">
+							<h3>Godawari</h3>
+							<span><img src="images/loca.png" alt="#"/> Nashik</span>
+						 </div>
+					  </div>
+					  <p>
+                  Nashik, a city in Maharashtra, is located on the banks of the Godavari River, known for its religious and cultural significance, temples, ghats, and hosting the Kumbh Mela.</p>
+					  <div class="tusc">
+						 <a class="read_more" href="book.html">Book Now</a>
+					  </div>
+				   </div>
+				</div>
+			 </div>
+             
+            </div>
+         </div>
+      </div>
+     
+           <!--  footer -->
+           <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-3">
+                        <div class="follow text_align_left">
+                           <h3>About</h3><br>
+                           <p>Mq Travels Service is not just a ride; it's an experience tailored to meet your travel needs. Experience the comfort, reliability, and professionalism that set us apart. Choose Mq Travels Service for a journey that goes beyond transportation.</p>
+                        </div>
+                     </div>
+                     <div class="col-md-1"></div>
+                     <div class="col-md-4">
+                        <h3 style="color: #fff;font-size: 25px;"><b>Contact</b></h3><br>
+                        <ul class="conta">
+                           <li><i class="fa fa-map-marker" aria-hidden="true"></i>Bhagyody nagr Near<br> islamiya bekary lane <br>umber 7 Kondhwa Pune </li>
+   
+                           <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+9665852551" style="color: #fff;">+9665852551</a>,&nbsp;&nbsp;<a href="tel:+9156366019" style="color: #fff;">+9156366019</a></li>
+                           <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:Iftekarshaikh6051@gmail.com" style="color: #fff;">Iftekarshaikh6051@gmail.com</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-md-1"></div>
+                     <div class="col-md-3">
+                        <div class="follow text_align_left">
+                           <ul class="social_icon ">
+                             
+                              <h3>Popular Cities</h3>
+                              <li style="color: #fff;"><a href="Javascript:void(0)"><i class="fa fa-location-arrow" aria-hidden="true"></i></a><b>Pune </b></li><br>
+                              <li style="color: #fff;"><a href="Javascript:void(0)"><i class="fa fa-location-arrow" aria-hidden="true"></i></a><b>Mumbai</b></li><br>
+                              <li  style="color: #fff;"><a href="Javascript:void(0)"><i class="fa fa-location-arrow" aria-hidden="true"></i></a><b>Nagpur</b></li><br>
+                              <li style="color: #fff;"><a href="Javascript:void(0)"><i class="fa fa-location-arrow" aria-hidden="true"></i></a><b>Kolhapur</b></li><br>
+                              <li style="color: #fff;"><a href="Javascript:void(0)"><i class="fa fa-location-arrow" aria-hidden="true"></i></a><b>Lonavala</b></li><br>
+                              <li  style="color: #fff;"><a href="Javascript:void(0)"><i class="fa fa-location-arrow" aria-hidden="true"></i></a><b>Nagpur</b></li><br>
+                              <li style="color: #fff;"><a href="Javascript:void(0)"><i class="fa fa-location-arrow" aria-hidden="true"></i></a><b>Kolhapur</b></li><br>
+                              <li style="color: #fff;"><a href="Javascript:void(0)"><i class="fa fa-location-arrow" aria-hidden="true"></i></a><b>Lonavala</b></li><br>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="copyright">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <p>© 2023 All Rights Reserved By  Mq Travels. Designed <a href="https://www.cobaztech.com">CobazTech</a></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- end footer -->
+
+      <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+      <script>
+          var wa_btnSetting = { "btnColor": "#16BE45", "ctaText": "", "cornerRadius": 150, "marginBottom": 20, "marginLeft": 20, "marginRight": 20, "btnPosition": "left", "whatsAppNumber": "9145079393", "welcomeMessage": "Hello", "zIndex": 999999, "btnColorScheme": "light" };
+          window.onload = () => {
+              _waEmbed(wa_btnSetting);
+          };
+      </script>
+
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/jquery.nice-select.min.js"></script>
+      <!-- sidebar -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="js/bootstrap-datepicker.min.js"></script>
+      <script src="js/niceCountryInput.js"></script>
+      <script src="js/custom.js"></script>
+      <script>  AOS.init();</script>
+   </body>
+</html>
